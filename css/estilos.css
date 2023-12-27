@@ -1,0 +1,443 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* boostraps de nosotros */
+.container .nosotros {
+  font-size: 80px;
+  margin-top: 150px;
+  text-align: center; }
+
+.container .parrafo {
+  font-size: 30px;
+  margin-bottom: 100px; }
+
+/* index */
+header {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%; }
+  header h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif; }
+  header nav {
+    display: flex; }
+    header nav ul {
+      display: flex;
+      list-style: none;
+      align-items: center; }
+      header nav ul li {
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px; }
+        header nav ul li:hover {
+          color: white;
+          /* font weight, es para darle mas ancho a las letras */
+          font-weight: bold; }
+
+/* index */
+.hero {
+  background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hero h2 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px; }
+  .hero h4 {
+    color: yellow;
+    margin-top: 470px;
+    width: 1000px;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px; }
+
+/* index */
+.finish {
+  background-color: gold;
+  height: 100px; }
+  .finish img {
+    padding: 20px;
+    width: 80px;
+    border-radius: 10px; }
+    .finish img .horarios {
+      font-size: 20px;
+      margin-left: 370px;
+      margin-top: -30px; }
+
+/*escritorio o tablets */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; }
+    header nav ul li a {
+      display: flex;
+      flex-direction: column; }
+  main .hero {
+    width: 100%; }
+    main .hero div h4 {
+      margin-top: 300px;
+      width: 750px;
+      font-size: 20px;
+      margin-left: 10px;
+      text-align: center; }
+  .ubicacion div .texto {
+    text-align: center; }
+  main .caja {
+    width: 100%; }
+    main .caja .area1 img {
+      height: 500px;
+      width: 500px;
+      margin-left: 120px; }
+    main .caja .area1 .porche {
+      font-size: 18px;
+      text-align: center;
+      margin-left: 120px;
+      width: 500px; }
+    main .caja .area2 img {
+      height: 600px;
+      width: 450px;
+      margin-top: 860px;
+      margin-left: -500px; }
+    main .caja .area2 .bmw {
+      width: 500px;
+      margin-left: -380px;
+      font-size: 18px; }
+  .main1 .HONDA {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px; }
+  .main1 .toyota {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px; }
+  .main1 .bentley {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px; } }
+
+/* telefonos */
+@media (max-width: 576px) {
+  header {
+    flex-direction: column; }
+    header nav ul li a {
+      display: flex;
+      flex-direction: column;
+      width: 80px;
+      font-size: 15px;
+      margin-right: -10px;
+      letter-spacing: -2px; }
+  main .hero {
+    width: 100%; }
+    main .hero div h2 {
+      text-align: center;
+      font-size: 40px; }
+    main .hero div h4 {
+      margin-top: 310px;
+      width: 400px;
+      font-size: 20px;
+      margin-left: 10px;
+      text-align: center; }
+  .finish .horarios {
+    margin-left: -300px;
+    width: 300px; }
+  /*ubicacion*/
+  .ubicacion div .texto {
+    text-align: center;
+    font-size: 20px; }
+  main .caja {
+    width: 100%; }
+    main .caja .area1 img {
+      height: 450px;
+      width: 450px;
+      margin-left: 50px; }
+    main .caja .area1 .porche {
+      font-size: 18px;
+      text-align: center;
+      margin-left: 70px;
+      width: 400px; }
+    main .caja .area2 img {
+      height: 600px;
+      width: 450px;
+      margin-top: 860px;
+      margin-left: -400px; }
+    main .caja .area2 .bmw {
+      width: 400px;
+      margin-left: -315px;
+      font-size: 18px; }
+  .main1 .HONDA {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px; }
+    .main1 .HONDA img {
+      width: 200px;
+      height: 200px; }
+  .main1 .toyota {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; }
+  .main1 .bentley {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px; } }
+
+header {
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%; }
+  header h1 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif; }
+  header nav ul {
+    list-style: none;
+    align-items: center; }
+    header nav ul li {
+      font-size: x-large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px; }
+      header nav ul li:hover {
+        color: white;
+        /* font weight, es para darle mas ancho a las letras */
+        font-weight: bold; }
+
+/* main del index */
+.hero {
+  background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hero div h2 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0.453);
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px; }
+  .hero div h4 {
+    color: yellow;
+    margin-top: 470px;
+    width: 1000px;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px; }
+
+/* nosotros */
+/* footer del index */
+.finish {
+  background-color: gold;
+  height: 100%; }
+  .finish .horarios {
+    font-size: 20px;
+    margin-left: 570px; }
+  .finish img {
+    padding: 20px;
+    width: 80px;
+    border-radius: 10px; }
+
+/* nosotros */
+.noso {
+  background-color: silver;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../tp-1/media/ff.jpg);
+  height: 2550px; }
+  .noso .puesto1 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .noso .puesto1 .box {
+      border: 5px solid black;
+      font-size: 30px;
+      text-align: center;
+      margin: 15px;
+      width: 520px;
+      height: 580x; }
+      .noso .puesto1 .box img {
+        width: 510px;
+        height: 500px; }
+
+/* main de ubicacion */
+.UBICACION {
+  background-image: url(../tp-1/media/2022-Bugatti-Chiron-Super-Sport-2-1.avif);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+div .titulo {
+  font-size: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation-duration: 3s;
+  animation-name: padrino;
+  text-align: center;
+  background-color: brown; }
+
+div .subtitulo {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  animation-name: padre;
+  animation-duration: 5s;
+  width: 100%;
+  text-align: center;
+  animation-iteration-count: infinite; }
+
+div .texto {
+  margin-top: 700px;
+  text-align: center; }
+
+@keyframes padre {
+  0% {
+    background-color: yellow; }
+  50% {
+    background-color: orange; }
+  100% {
+    background-color: brown; } }
+
+@keyframes padrino {
+  0% {
+    background-color: orange;
+    width: 0%;
+    margin-left: -200px; }
+  25% {
+    background-color: orange;
+    width: 25%; }
+  50% {
+    background-color: red;
+    width: 50%; }
+  100% {
+    background-color: yellow;
+    width: 100%; } }
+
+/* AUTOS0KM */
+.caja {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 220px;
+  gap: 10px;
+  margin: 0%;
+  padding: 15px;
+  width: 100%;
+  margin: 0%;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../tp-1/media/ffff.jpg); }
+
+.area1 {
+  text-align: center;
+  grid-row: 1/ span 3;
+  grid-column: 1/ span 2; }
+  .area1 img {
+    width: 873px;
+    height: 672px;
+    border: 4px solid black; }
+
+.porche {
+  width: 750px;
+  margin-top: 15px;
+  margin-left: 130px;
+  font-size: 26px; }
+
+.area2 {
+  text-align: center;
+  grid-row: 1/span 3; }
+  .area2 img {
+    width: 427px;
+    height: 672px;
+    border: 4px solid black; }
+  .area2 .bmw {
+    margin-top: 15px;
+    font-size: 26px; }
+
+/* MARCAS */
+.main1 {
+  width: 100%;
+  height: 1700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../tp-1/media/fa.jpg); }
+  .main1 div .marcas {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: black; }
+  .main1 h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: -20px; }
+  .main1 .HONDA {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .HONDA img {
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 83px;
+      border: 8px solid black;
+      margin-right: 78px;
+      width: 400px;
+      transition: transform 0,3s ease; }
+      .main1 .HONDA img:hover {
+        transform: scale(1.5); }
+  .main1 .toyota {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .toyota img {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      margin-left: 9px;
+      border: 8px solid black;
+      transition: transform 0,3s ease; }
+      .main1 .toyota img:hover {
+        transform: scale(1.5); }
+  .main1 .bentley {
+    display: flex;
+    justify-content: space-around; }
+    .main1 .bentley img {
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+      border: 8px solid black;
+      margin-left: 9px;
+      transition: transform 0,3s ease; }
+      .main1 .bentley img:hover {
+        transform: scale(1.5); }
+
+/* footter */
+.final {
+  background-color: gold;
+  height: 90px; }
+
+.fin {
+  background-color: gold;
+  height: 90px; }

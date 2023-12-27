@@ -1,0 +1,334 @@
+@import "./base/variables-operaciones.scss";
+@import "./base/generales.scss";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./base/mediaquery.scss";
+
+
+header {
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    h1 {
+        font-size: 80px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+        nav{
+            ul {
+                list-style: none;
+                align-items: center;
+                li {
+                    font-size: x-large;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-decoration: none;
+                    color:black;
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 10px;
+                    &:hover {
+                        color: white;
+                        /* font weight, es para darle mas ancho a las letras */
+                        font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+/* main del index */
+
+
+.hero{
+    background-image: url(../tp-1/media/2023-lucid-air-1.jpg);
+    width: 100%;
+    height:800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    div {
+        h2{
+        font-size: 50px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(255, 255, 255, 0.453);
+        border:1px solid rgb(0, 0, 0) ;
+        text-align: center;
+        padding: 30px;
+        }
+    }
+    div {
+        h4 {
+            color: yellow;
+            margin-top:470px ;
+            width: 1000px;
+            text-align: center;
+            font-family: cursive;
+            font-size: x-large;
+            margin-left: 200px;
+    }
+}
+}
+
+/* nosotros */
+
+
+
+/* footer del index */
+
+.finish{
+    background-color: gold;
+    height: 100%;
+    .horarios{
+            font-size: 20px;
+            margin-left: 570px;
+            
+        }
+                img{
+                padding: 20px;
+                width: 80px;
+                border-radius:10px;
+    }
+}
+/* nosotros */
+
+.noso{
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../tp-1/media/ff.jpg);
+    height: 2550px;
+    .puesto1 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        .box {
+            border: 5px solid black;
+            font-size: 30px;
+            text-align: center;
+            margin: 15px;
+            width: 520px;
+            height: 580x;
+                img {
+                    width: 510px;
+                    height: 500px;
+            }
+        }
+    }
+}
+
+
+
+/* main de ubicacion */
+.UBICACION{
+    background-image: url(../tp-1/media/2022-Bugatti-Chiron-Super-Sport-2-1.avif);
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    div{
+        .titulo{
+        font-size: 80px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        animation-duration: 3s;
+        animation-name: padrino;
+        text-align: center;
+        background-color: brown;
+        }
+    .subtitulo {
+        font-size: 30px;
+        margin-top: 20px;
+        letter-spacing: 3px;
+        animation-name: padre;
+        animation-duration:5s;
+        width: 100%;
+        text-align: center;
+        animation-iteration-count: infinite;
+    }
+    .texto{
+        margin-top: 700px;
+        text-align: center;
+    }
+}
+
+@keyframes padre {
+    0%{
+        background-color: yellow;
+        
+    }
+    50%{
+        background-color:orange; 
+    }
+    100%{
+        background-color: brown;
+    }
+}
+
+
+@keyframes padrino{
+    0%{
+        background-color: orange;
+        width: 0%;
+        margin-left: -200px;
+
+    }
+    25% {
+        background-color: orange;
+        width: 25%;
+    }
+    50% {
+        background-color: red;
+        width: 50%;
+    }
+    100% {
+        background-color:yellow;
+        width: 100%;
+        
+    }
+}
+
+
+
+    /* AUTOS0KM */
+
+    
+.caja {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 220px;
+    gap: 10px;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    margin: 0%;
+    height: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../tp-1/media/ffff.jpg);
+    }
+    .area1 {
+        text-align: center;
+        grid-row: 1/ span 3;
+        grid-column: 1/ span 2;
+        img{
+            width: 873px;
+            height: 672px;
+            border: 4px solid black;
+        }
+    }
+        .porche{
+            width: 750px;
+            margin-top: 15px;
+            margin-left: 130px;
+            font-size: 26px;
+        }
+    .area2{
+        text-align: center;
+        grid-row: 1/span 3;
+            img{
+                width: 427px;
+                height: 672px;
+                border: 4px solid black;
+            }
+        .bmw {
+        margin-top: 15px;
+        font-size: 26px;
+        }
+    }
+    
+
+
+/* MARCAS */
+
+.main1 {
+    width: 100%;
+    height: 1700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../tp-1/media/fa.jpg);
+    div{
+        .marcas {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            color:black;
+        }
+    }
+    h2{
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 70px;
+        margin-bottom: -20px;
+    }
+    .HONDA {
+        display:flex;
+        justify-content: space-around;
+            img {
+                height: 300px;
+                margin-top: 50px;
+                margin-left: 83px;
+                border: 8px solid black;
+                margin-right: 78px;
+                width: 400px;
+                transition: transform 0,3s ease;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    .toyota {
+        display: flex;
+        justify-content: space-around;
+            img {
+                width: 400px;
+                height: 300px;
+                margin-top: 50px;
+                margin-left:9px;
+                border: 8px solid black;
+                transition: transform 0,3s ease;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+        }       
+    .bentley{
+        display: flex;
+        justify-content: space-around;
+            img{
+                width: 400px;
+                height: 300px;
+                margin-top: 50px;
+                border: 8px solid black;
+                margin-left: 9px;
+                transition: transform 0,3s ease;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+
+/* footter */
+
+.final {
+    background-color:gold;
+    height: 90px;
+    }
+
+.fin{
+    background-color: gold;
+    height: 90px;
+
+    }
+
+
+
+

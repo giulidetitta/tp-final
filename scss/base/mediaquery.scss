@@ -1,0 +1,259 @@
+/*escritorio o tablets */
+
+@media (max-width: 768px) {
+
+header {
+    flex-direction: column;
+    nav{
+        ul{
+            li{
+                a{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }        
+    } 
+}
+main{
+    .hero{
+        width: 100%;
+        div{
+            h4{
+                margin-top: 300px;
+                width: 750px;
+                font-size: 20px;
+                margin-left: 10px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.ubicacion{
+    div{
+        .texto{
+            text-align: center;
+        }
+    }
+}
+
+main{
+    .caja{
+        width: 100%;
+        .area1{
+            img{
+                height: 500px;
+                width: 500px;
+                margin-left: 120px;
+            }
+            .porche{
+                font-size: 18px;
+                text-align: center;
+                margin-left: 120px;
+                width: 500px;
+            }
+    }
+        .area2{
+            img{
+                height: 600px;
+                width: 450px;
+                margin-top: 860px;
+                margin-left: -500px;
+            }
+            .bmw{
+                width: 500px;
+                margin-left: -380px;
+                font-size: 18px;
+                
+            }
+        }
+    }
+}
+
+
+.main1{
+    div{
+        .marcas{
+
+        }
+    }
+        .hon{
+            
+        }
+    .HONDA{
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+        img{
+        }
+    }
+        .toyo {
+
+        }
+    .toyota{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        img{
+
+        }
+    }
+        .bent{
+
+        }
+    .bentley{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        img{
+
+        }
+    }
+}
+}
+
+/* telefonos */
+
+@media ( max-width: 576px) {
+
+header {
+    flex-direction: column;
+    nav{
+        ul{
+            li{
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    width: 80px;
+                    font-size: 15px;
+                    margin-right: -10px;
+                    letter-spacing: -2px;
+                }
+            }
+        }        
+    } 
+}
+
+main{
+    .hero{
+        width:100%;
+        div{
+            h2{
+            text-align: center;
+            font-size: 40px;
+            }
+        }
+        div{
+            h4{
+                margin-top: 310px;
+                width: 400px;
+                font-size: 20px;
+                margin-left: 10px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.finish{
+    .horarios{
+        margin-left: -300px;
+        width: 300px;
+    }
+}
+
+/*ubicacion*/
+
+.ubicacion{
+    div{
+        .titulo{
+
+        }
+        .subtitulo{
+
+        }
+        .texto{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+main{
+    .caja{
+        width: 100%;
+        .area1{
+            img{
+                height: 450px;
+                width: 450px;
+                margin-left: 50px;
+            }
+            .porche{
+                font-size: 18px;
+                text-align: center;
+                margin-left: 70px;
+                width: 400px;
+            }
+    }
+        .area2{
+            img{
+                height: 600px;
+                width: 450px;
+                margin-top: 860px;
+                margin-left: -400px;
+            }
+            .bmw{
+                width: 400px;
+                margin-left: -315px;
+                font-size: 18px;
+                
+            }
+        }
+    }
+}
+
+
+
+.main1{
+    div{
+        .marcas{
+        }
+    }
+        .hon{
+            
+        }
+    .HONDA{
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+        .toyo {
+
+        }
+    .toyota{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        img{
+
+        }
+    }
+        .bent{
+
+        }
+    .bentley{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        img{
+
+        }
+    }
+}
+}
